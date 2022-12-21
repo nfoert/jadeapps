@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="assets">
+    <file>assets/test_testapp/logo.png</file>
+    <file>assets/jadeapps/background.png</file>
+  </qresource>
+</RCC>
