@@ -4,6 +4,8 @@ Welcome to Jade Apps! Jade Apps allows you to get information and control tasks 
 
 Jade Apps will also be able to get user-added apps. The process is fairly straightforward and is explained in detail below.
 
+<a href="https://nfoert.pythonanywhere.com/jadesite/jadelauncher"><img src="launcher.png" width="200"></a>
+
 ## Adding your own apps to Jade Apps
 ---
 This assumes that you know how to program in Python, have an understanding of functions and classes and have had experience in GUI programming. Jade Apps supports both [PyQt5](https://pypi.org/project/PyQt5/) and [guizero](https://lawsie.github.io/guizero/about/) for your App's GUI.
