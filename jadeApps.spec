@@ -22,7 +22,11 @@ a = Analysis(
 
 a.datas += [
     ('jadeapps/main.ui','./ui/jadeapps/main.ui', "DATA"),
-	('nfoert_test/main.ui','./ui/nfoert_test/main.ui', "DATA")
+	('nfoert_example/main.ui','./ui/nfoert_example/main.ui', "DATA"),
+    ('keys.txt','./keys.txt', "DATA"),
+    ('jadeapps_quickgoogle/main.ui','./ui/jadeapps_quickgoogle/main.ui', "DATA"),
+    ('jadeapps_spotifyremotecontrol/main.ui','./ui/jadeapps_spotifyremotecontrol/main.ui', "DATA"),
+    ('jadeapps_weather/main.ui','./ui/jadeapps_weather/main.ui', "DATA")
 ]
 
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
@@ -41,7 +45,8 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=True,
+    console=False,
+    icon="favicon.ico",
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
