@@ -2,14 +2,16 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         This is work by nfoert. If this is in someone else's repo that means they submitted an app to add to the original repo here https://github.com/nfoert/jadeapps
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-'''
 
-'''
+
 --------------------------------------------- Welcome to Jade Apps! ---------------------------------------------
 If you're here to make your own apps, take a look at the documentation here https://github.com/nfoert/jadeapps
 You will need this whole file to make your own apps. This code is what's inside the executable for Jade Apps.
 You should not edit any of the below code up until the Apps section. (Other then adding some imports)
+
+=== PLEASE READ THE COMMENTS! ===
 '''
+
 
 # ----------
 # Imports
